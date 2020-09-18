@@ -1,0 +1,126 @@
+/******HEADER******/
+.header-image{
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 3px;
+    padding-top: 2px;
+}
+
+.header-title{
+    text-align: center;
+    padding-top: 50px;
+    color: #ffffff;
+}
+
+.nav-bar{
+    text-align: center;
+}
+
+.nav-button{
+    border: 2px;
+    border-color: black;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+.home-btn{
+    background-color: rgb(127,163,28);
+
+}
+
+.club-btn{
+    background-color:rgb(1,93,170);
+}
+
+.fixture-btn{
+    background-color: rgb(251,104,3);  
+}
+
+.btn-border{
+    border: 2px;
+    border-color: rgb(49, 49, 49);
+    border-style: groove;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
+}
+
+/******SECTION******/
+section{
+    background-color: blue;
+    padding: 10px;
+}
+
+.last-match{
+    background-color: white;
+    text-align: center;
+    border: 2px;
+    border-color: rgb(49, 49, 49);
+    border-style: groove;
+}
+
+.social-media{
+    background-color:white;
+}
+
+.twitter-feed{
+    overflow:scroll;
+    max-height: 500px;
+    background-color: rgb(255, 165, 0);
+    text-align: center;
+    border: 2px;
+    border-color: rgb(49, 49, 49);
+    border-left-style: groove;
+}
+
+.trinity-news{
+    background-color: white;
+    margin-top: 10px;
+    border: 2px;
+    border-color: rgb(49, 49, 49);
+    border-style: groove;
+    text-align: center;
+}
+
+
+a:hover, a:active, a:focus{
+    text-decoration: none;
+}
+
+.link-color-white a:link {
+  color: white;
+  }
+
+ .link-color-white a:visited {
+    color: white;
+    }
+
+.link-color-white a:hover, a:active, a:focus {
+  color: black;
+  text-decoration: none;
+}
+/*
+.link-color-purple a:link {
+  color: rgb(140, 0, 255);
+  }
+
+ .link-color-purple a:visited {
+    color: rgb(140, 0, 255);
+    }
+
+.link-color-purple a:hover, a:active, a:focus {
+  color: rgb(140, 0, 255);
+}
+
+.link-color-black-charity a:link {
+  color: black;
+  }
+
+.link-color-black-charity a:visited {
+    color: black;
+    }
+
+.link-color-black-charity a:hover, a:active, a:focus {
+    color: black;
+}
