@@ -9,23 +9,26 @@
     <title>Sheffield Trinity Football Club</title>
 </head>
 <body>
-    <header>
+    <header class="fixed-top">
         <div class="container-fluid container-control header-background" style="background-image: url('assets/images/header-background.jpg');">
             <div class="row">
-                <div class="col-12 col-md-3 header-image"><img class="header-image" src="assets/images/trinity-logo.jpg" alt="Sheffield Trinity FC Logo">
+                <div class="col-md-3 header-image"><img class="header-image" src="assets/images/trinity-logo.jpg" alt="Sheffield Trinity FC Logo">
                 </div>
-                <div class="col-12 col-md-9">
-                    <h1 class="header-title">Sheffield Trinity Football Club</h1> 
+                <div class="col-12 col-md-9 header-title">
+                    Sheffield Trinity FC
                 </div>
             </div>
         </div>
-        <div class="container-fluid container-control ">
+        <div class="container-fluid container-control d-none d-md-block">
             <div class="row link-color-white">
                 <div class="col-12 col-sm-4 home-btn btn-border head-links"><a href="index.html"> Home</a></div>
                 <div class="col-12 col-sm-4 club-btn btn-border head-links"> <a href="the-club.html"> The Club</a><i class="fab fa-earlybirds"></i></div>
                 <div class="col-12 col-sm-4 fixture-btn btn-border head-links"> <a href="fixtures.html"> Fixtures</a></div>
             </div>
         </div>  
+        <div class="d-block d-md-none">
+            <nav class="navbar navbar-light bg-light navbar-expand-md "><a href="index.html"> Home</a><a href="the-club.html"> The Club</a><a href="fixtures.html"> Fixtures</a></nav>
+        </div>
     </header>
     
 </body>

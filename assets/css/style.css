@@ -4,16 +4,19 @@
     max-height: 200px;
     margin-bottom: 3px;
     padding-top: 2px;
+    border-radius: 50%;
 }
 
 .header-title{
+    font-size: 60px ;
     text-align: center;
     padding-top: 50px;
     color: #ffffff;
 }
-
-.nav-bar{
-    text-align: center;
+/*
+.navbar{
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .nav-button{
@@ -22,7 +25,7 @@
     padding-top: 20px;
     padding-bottom:20px;
 }
-
+*/
 .home-btn{
     background-color: rgb(1,93,170);
 
@@ -64,6 +67,10 @@ section{
     border-style: groove;
 }
 
+.font-sizing{
+    font-size: 30px;
+}
+
 .social-media{
     background-color:white;
 }
@@ -85,6 +92,7 @@ section{
     border-color: rgb(49, 49, 49);
     border-style: groove;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .next-match{
@@ -94,6 +102,14 @@ section{
     border-color: rgb(49, 49, 49);
     border-style: groove;
     margin-top: 5px;
+    padding-bottom: 10px;
+}
+
+.training-photo{
+    
+    max-height: 300px;
+    max-width: 300px;
+
 }
 
 
@@ -138,4 +154,56 @@ a:hover, a:active, a:focus{
 .link-color-black-charity a:hover, a:active, a:focus {
     color: black;
 }
+*/
 
+/****** MEDIA ADJUSTMENTS ******/
+
+@media (max-width:1200px){
+    .header-title{
+    font-size:45px;
+    }
+    .twitter-feed{
+        border-style: groove;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:850px){
+    .header-title{
+    font-size:35px;
+    }
+    .font-sizing{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:800px){
+    section{
+    margin-top: 230px;
+    }
+    .header-title{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .header-image{
+        max-width: 150px;
+        max-height: 150px;
+    }
+    .twitter-feed{
+    max-height: 300px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .header-image{
+        display: none;
+    }
+    section{
+    margin-top: 142px;
+    }
+    .training-photo{
+        max-height: 200px;
+        max-width: 200px;
+    }
+}
