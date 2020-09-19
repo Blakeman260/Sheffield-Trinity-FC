@@ -24,12 +24,12 @@
 }
 
 .home-btn{
-    background-color: rgb(127,163,28);
+    background-color: rgb(1,93,170);
 
 }
 
 .club-btn{
-    background-color:rgb(1,93,170);
+    background-color:rgb(127,163,28);
 }
 
 .fixture-btn{
@@ -46,9 +46,13 @@
     color: white;
 }
 
-/******SECTION******/
 section{
-    background-color: blue;
+    margin-top: 280px;
+}
+
+/******HOME SECTION******/
+.home-section{
+    background-color: rgb(1,93,170);
     padding: 10px;
 }
 
@@ -67,7 +71,7 @@ section{
 .twitter-feed{
     overflow:scroll;
     max-height: 500px;
-    background-color: rgb(255, 165, 0);
+    background-color: rgb(177, 233, 235);
     text-align: center;
     border: 2px;
     border-color: rgb(49, 49, 49);
@@ -82,6 +86,16 @@ section{
     border-style: groove;
     text-align: center;
 }
+
+.next-match{
+    background-color: white;
+    text-align: center;
+    border: 2px;
+    border-color: rgb(49, 49, 49);
+    border-style: groove;
+    margin-top: 5px;
+}
+
 
 
 a:hover, a:active, a:focus{
@@ -124,3 +138,4 @@ a:hover, a:active, a:focus{
 .link-color-black-charity a:hover, a:active, a:focus {
     color: black;
 }
+
