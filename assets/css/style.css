@@ -130,6 +130,29 @@ a:hover, a:active, a:focus{
   color: black;
   text-decoration: none;
 }
+
+/******THE CLUB******/
+.contact-form{
+    max-width: 500px;
+    position: central;
+    padding-top: 50px;
+}
+
+
+
+
+/******FIXTURES******/
+
+div#map {
+    min-height: 360px;
+}
+
+.map-section{
+    
+}
+
+
+
 /*
 .link-color-purple a:link {
   color: rgb(140, 0, 255);
