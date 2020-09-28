@@ -134,7 +134,7 @@ a:hover, a:active, a:focus{
 /******THE CLUB******/
 .contact-form{
     max-width: 500px;
-    position: central;
+    text-align: central;
     padding-top: 50px;
 }
 
@@ -148,36 +148,11 @@ div#map {
 }
 
 .map-section{
-    
+    max-width: 500px;
 }
 
 
 
-/*
-.link-color-purple a:link {
-  color: rgb(140, 0, 255);
-  }
-
- .link-color-purple a:visited {
-    color: rgb(140, 0, 255);
-    }
-
-.link-color-purple a:hover, a:active, a:focus {
-  color: rgb(140, 0, 255);
-}
-
-.link-color-black-charity a:link {
-  color: black;
-  }
-
-.link-color-black-charity a:visited {
-    color: black;
-    }
-
-.link-color-black-charity a:hover, a:active, a:focus {
-    color: black;
-}
-*/
 
 /****** MEDIA ADJUSTMENTS ******/
 

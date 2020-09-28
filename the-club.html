@@ -42,20 +42,22 @@
         <div>
 
         </div>
-        <div class="contact-form">
-            <form onsubmit="return sendMail(this);">
-            <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/><br>
-            <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/><br>
-            <label for="topic">Choose a topic:</label>
-            <select id="topic" name="topic" class="form-control">
-                <option value="joining_squad">Joining Squad</option>
-                <option value="sponsor">Sponsor</option>
-                <option value="other">Other</option>
-            </select>
-             <br><br>            
-            <textarea rows="6" name="enquiry" class="form-control" id="enquiry" placeholder="Please type your message here" required></textarea>
-            <button type="submit" class="btn btn-secondary center-block"> Send </button>
-            </form> 
+        <div class="row">
+            <div class="contact-form col-12">
+                <form onsubmit="return sendMail(this);">
+                <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/><br>
+                <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/><br>
+                <label for="topic">Choose a topic:</label>
+                <select id="topic" name="topic" class="form-control">
+                    <option value="joining_squad">Joining Squad</option>
+                    <option value="sponsor">Sponsor</option>
+                    <option value="other">Other</option>
+                </select>
+                <br><br>            
+                <textarea rows="6" name="enquiry" class="form-control" id="enquiry" placeholder="Please type your message here" required></textarea>
+                <button type="submit" class="btn btn-secondary center-block"> Send </button>
+                </form> 
+            </div>
         </div>
     </section>
     <footer>
