@@ -7,10 +7,14 @@ function sendMail(contactForm) {
     })
     .then(
         function(response) {
-            console.log("SUCCESS",  response);
+            alert("Thank you, your email has been sent, we will get back to you, as soon as possible.");
+            contactForm.reset();
+            
+            
+            
         },
         function(error) {
-            console.log("FAILED", error);
+            alert("Sorry, we're having a few problems right now, please try again later.");
         });
     return false;
 }
