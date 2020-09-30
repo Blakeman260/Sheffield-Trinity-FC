@@ -38,29 +38,65 @@
             <nav class="navbar navbar-light bg-light navbar-expand-md "><a href="index.html"> Home</a><a href="the-club.html"> The Club</a><a href="fixtures.html"> Fixtures</a></nav>
         </div>
     </header>
-    <section>
-        <div>
+    <section class="the-club-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="club-info col-12">
+                    <b>In the beginning:</b><br>
+                    The football club was set up in May 2008 by Andy Hoyland and Iain Atkins.The initial idea came about when Iain asked Andy if 
+                    he would be interested in setting up an 11 a side church football team based around St. Johns church, Owlerton and Christ Church, 
+                    Hillsborough and  Wadsley Bridge. Andy was very interested so they investigated appropriate leagues to meet the proposed club ethos. 
+                    They identified a Saturday morning league known as the Sheffield and District Fair Play League (SDFPL) and approached it for membership.
+                    It looked as if the team would have to play a season of friendlies, and the pair were organising this, when a league place became 
+                    available subject to the application process.  They viewed this as the football team was meant to be and that now was the right 
+                    time and place to do it. The club then played three friendlies against Hope City, HSBC and Zion New Boyz, all of which they 
+                    unfortunately lost, but the good news was that the club was accepted into the SDFPL league for the 2008 – 2009 season. <br><br>
 
-        </div>
-        <div class="row">
-            <div class="contact-form col-12">
-                <form onsubmit="return sendMail(this);">
-                <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/><br>
-                <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/><br>
-                <label for="topic">Choose a topic:</label>
-                <select id="topic" name="topic" class="form-control">
-                    <option value="joining_squad">Joining Squad</option>
-                    <option value="sponsor">Sponsor</option>
-                    <option value="other">Other</option>
-                </select>
-                <br><br>            
-                <textarea rows="6" name="enquiry" class="form-control" id="enquiry" placeholder="Please type your message here" required></textarea>
-                <button type="submit" class="btn btn-secondary center-block"> Send </button>
-                </form> 
+                    <b>The club name:</b><br>
+                    The football club was originally planned to be called Sheffield Saints. ‘Sheffield’ to indicate where most of the team live, grew up and 
+                    play their football, ‘Saints’ to express the church links of the club. However, this name wasn’t to be as another new club in the SDFPL 
+                    had a similar name ‘Yorkshire New Saints’ and the names were deemed too similar. The current name came into being after being suggested 
+                    by an unlikely source. He was proposing various names but couldn’t find anything that suited the club. However his grandma, Madge Shepherd, 
+                    suggested the name ‘Sheffield Trinity’. ‘Sheffield’ because of the Sheffield base, 
+                    and ‘Trinity’ because the Trinity is the Father, the Son and the Holy Ghost.<br><br>
+
+                    <b>The Ethos:</b><br>
+                    The football club plays in a competitive league and wants to win games and progress.
+                    "Winning is not everything, but the effort to win is." (Zig Ziglar).
+                    However, it also wants to be a part of the players lives, providing an opportunity for people to meet, enjoy their football, socialise 
+                    together and accept their differences in ability, race, age and use them to benefit each other and the team.
+                    "The nice thing about teamwork is that you always have others on your side." (Margaret Carty)
+                </div>
+            </div>
+            <div class="row form-section">
+                <div class="d-none d-md-block col-lg-4">
+                    <img src="assets/images/charter-standard.jpg" alt=" Charter Standard logo">
+                </div>
+                <div class="contact-form col-12 col-lg-4">
+                    <form onsubmit="return sendMail(this);">
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/><br>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/><br>
+                    <label for="topic">Choose a topic:</label>
+                    <select id="topic" name="topic" class="form-control">
+                        <option value="joining_squad">Joining Squad</option>
+                        <option value="sponsor">Sponsor</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <br><br>            
+                    <textarea rows="6" name="enquiry" class="form-control" id="enquiry" placeholder="Please type your message here" required></textarea>
+                    <button type="submit" class="btn btn-secondary center-block"> Send </button>
+                    </form> 
+                </div>
             </div>
         </div>
     </section>
     <footer>
+        <div class="row container-fluid">
+            <div class="col-12 footer-info">
+                Need to get in touch with us about joining our team, or for any other reason? You're on the right page! Just fill out the form above, and we'll be in touch 
+                as soon as possible.
+            </div>
+        </div>
     </footer>
     <script src="assets/js/sendEmail.js"></script>
     

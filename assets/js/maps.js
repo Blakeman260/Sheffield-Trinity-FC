@@ -1,18 +1,18 @@
-        function initMap() {
-            var map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 10,
-                center: {
-                    lat: 53.380222,
-                    lng: -1.468751
-                     
-                }
-            });
+function initMap() {
+    var map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 10,
+        center: {
+            lat: 53.380222,
+            lng: -1.468751      
+        }
+    });
 
             var labels = "12345678910";
 
             var locations = [
-                { lat: 53.405551, lng: -1.502073 }, 
+                
                 { lat: 53.369007, lng: -1.372672 }, 
+                { lat: 53.405551, lng: -1.502073 }, 
                 { lat: 53.422125, lng: -1.332714 },
                 { lat: 53.407297, lng: -1.447126},
                 { lat: 53.346377, lng: -1.459284},

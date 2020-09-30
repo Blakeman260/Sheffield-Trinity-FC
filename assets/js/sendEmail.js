@@ -9,9 +9,6 @@ function sendMail(contactForm) {
         function(response) {
             alert("Thank you, your email has been sent, we will get back to you, as soon as possible.");
             contactForm.reset();
-            
-            
-            
         },
         function(error) {
             alert("Sorry, we're having a few problems right now, please try again later.");
