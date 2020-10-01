@@ -132,12 +132,31 @@ a:hover, a:active, a:focus{
     padding:10px;
 }
 
-.club-info{
+.club-sub-header{
     background-color: white;
+    border: 2px;
+    border-color: rgb(49, 49, 49);
+    border-style: groove;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.about-club{
+    background-color: white;
+    border: 2px;
+    border-color: rgb(49, 49, 49);
+    border-style: groove;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .form-section{ 
     background-color: white;
+    border: 10px;
+    border-color: rgb(249,252,7);
+    border-style: groove;
+    margin-top: 10px;
 }
 
 .contact-form{
@@ -154,6 +173,16 @@ a:hover, a:active, a:focus{
 .fixture-section{
     background-color: rgb(251,104,3);
     padding: 10px;
+}
+
+.fixture-title{
+    background-color: white;
+    text-align: center;
+    border: 2px;
+    border-color: rgb(49, 49, 49);
+    border-style: groove;
+    padding-bottom:10px;
+    margin-bottom:10px;
 }
 
 .map-and-fixtures{
