@@ -15,6 +15,23 @@
         emailjs.init("user_VzBodc11WQ852CtFuoddh");
         })();
     </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $("#beginning").hide();
+            $("#button-1").click(function(){ 
+                $("#beginning").toggle("fast");
+            });
+            $("#club-name").hide();
+            $("#button-2").click(function(){ 
+                $("#club-name").toggle("fast");
+            });
+            $("#ethos").hide();
+            $("#button-3").click(function(){ 
+                $("#ethos").toggle("fast");
+            });
+        });
+    </script>
 </head>
 <body>
     <header class="fixed-top">
@@ -41,31 +58,41 @@
     <section class="the-club-section">
         <div class="container-fluid">
             <div class="row">
+                <div class="col-12">
+                </div>
+            </div> 
+		</div>
+        <div class="container-fluid">
+            <div class="row about-club">
                 <div class="club-info col-12">
                     <b>In the beginning:</b><br>
-                    The football club was set up in May 2008 by Andy Hoyland and Iain Atkins.The initial idea came about when Iain asked Andy if 
-                    he would be interested in setting up an 11 a side church football team based around St. Johns church, Owlerton and Christ Church, 
+                    <p  id="beginning">The football club was set up in May 2008 by Andy Hoyland and Iain Atkins.The initial idea came about when Iain asked Andy if 
+                    he would be interested in setting up an 11 a side church football team based around St. Johns church, Owlerton and Christ Church,
                     Hillsborough and  Wadsley Bridge. Andy was very interested so they investigated appropriate leagues to meet the proposed club ethos. 
                     They identified a Saturday morning league known as the Sheffield and District Fair Play League (SDFPL) and approached it for membership.
                     It looked as if the team would have to play a season of friendlies, and the pair were organising this, when a league place became 
                     available subject to the application process.  They viewed this as the football team was meant to be and that now was the right 
                     time and place to do it. The club then played three friendlies against Hope City, HSBC and Zion New Boyz, all of which they 
-                    unfortunately lost, but the good news was that the club was accepted into the SDFPL league for the 2008 – 2009 season. <br><br>
+                    unfortunately lost, but the good news was that the club was accepted into the SDFPL league for the 2008 – 2009 season. </p>
+                    <br>
+                    <button id="button-1">Click here, to see how it started</button><br><br>
 
                     <b>The club name:</b><br>
-                    The football club was originally planned to be called Sheffield Saints. ‘Sheffield’ to indicate where most of the team live, grew up and 
+                    <p  id="club-name">The football club was originally planned to be called Sheffield Saints. ‘Sheffield’ to indicate where most of the team live, grew up and 
                     play their football, ‘Saints’ to express the church links of the club. However, this name wasn’t to be as another new club in the SDFPL 
                     had a similar name ‘Yorkshire New Saints’ and the names were deemed too similar. The current name came into being after being suggested 
                     by an unlikely source. He was proposing various names but couldn’t find anything that suited the club. However his grandma, Madge Shepherd, 
                     suggested the name ‘Sheffield Trinity’. ‘Sheffield’ because of the Sheffield base, 
-                    and ‘Trinity’ because the Trinity is the Father, the Son and the Holy Ghost.<br><br>
+                    and ‘Trinity’ because the Trinity is the Father, the Son and the Holy Ghost.</p><br>
+                    <button id="button-2">Click here, to see how we came up with our name</button><br><br>
 
                     <b>The Ethos:</b><br>
-                    The football club plays in a competitive league and wants to win games and progress.
+                    <p  id="ethos">The football club plays in a competitive league and wants to win games and progress.
                     "Winning is not everything, but the effort to win is." (Zig Ziglar).
                     However, it also wants to be a part of the players lives, providing an opportunity for people to meet, enjoy their football, socialise 
                     together and accept their differences in ability, race, age and use them to benefit each other and the team.
-                    "The nice thing about teamwork is that you always have others on your side." (Margaret Carty)
+                    "The nice thing about teamwork is that you always have others on your side." (Margaret Carty)</p><br>
+                    <button id="button-3">Click here, to see what drives us</button><br><br>
                 </div>
             </div>
             <div class="row form-section">
@@ -73,6 +100,7 @@
                     <img src="assets/images/charter-standard.jpg" alt=" Charter Standard logo">
                 </div>
                 <div class="contact-form col-12 col-lg-4">
+                    <h2>Contact form</h2><br>
                     <form onsubmit="return sendMail(this);">
                     <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/><br>
                     <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/><br>
@@ -99,6 +127,5 @@
         </div>
     </footer>
     <script src="assets/js/sendEmail.js"></script>
-    
 </body>
 </html>
