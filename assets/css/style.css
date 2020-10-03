@@ -20,6 +20,18 @@
     border-style: groove;
 }
 
+.home-navbar-button{
+    color:rgb(1,93,170);
+}
+
+.club-navbar-button{
+    color: rgb(127,163,28);
+}
+
+.fixtures-navbar-button{
+    color: rgb(251,104,3);
+}
+
 
 .home-btn{
     background-color: rgb(1,93,170);
@@ -165,12 +177,10 @@ a:hover, a:active, a:focus{
 
 .contact-form{
     max-width: 500px;
-    text-align: central;
+    text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
-
 
 
 /******FIXTURES******/
