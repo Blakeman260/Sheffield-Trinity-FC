@@ -49,6 +49,7 @@ section{
 }
 
 /******HOME SECTION******/
+
 .home-section{
     background-color: rgb(1,93,170);
     padding: 10px;
@@ -62,7 +63,7 @@ section{
     border-style: groove;
 }
 
-.font-sizing{
+.home-font-sizing{
     font-size: 30px;
 }
 
@@ -90,6 +91,10 @@ section{
     padding-bottom: 20px;
 }
 
+.news-list{
+    list-style-type: none;
+}
+
 .next-match{
     background-color: white;
     text-align: center;
@@ -101,12 +106,10 @@ section{
 }
 
 .training-photo{
-    
     max-height: 300px;
     max-width: 300px;
 
 }
-
 
 
 a:hover, a:active, a:focus{
@@ -127,6 +130,7 @@ a:hover, a:active, a:focus{
 }
 
 /******THE CLUB******/
+
 .the-club-section{
     background-color: rgb(127,163,28);
     padding:10px;
@@ -170,6 +174,7 @@ a:hover, a:active, a:focus{
 
 
 /******FIXTURES******/
+
 .fixture-section{
     background-color: rgb(251,104,3);
     padding: 10px;
@@ -199,14 +204,14 @@ div#map {
 
 .map-section{
     max-width: 500px;
+    padding-top: 10px;
 }
-/*
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
+
+.fixture-table{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-*/
+
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
@@ -218,16 +223,13 @@ tr:nth-child(even) {
 }
 
 /******FOOTER******/
+
 footer{
     background-color: rgb(249,252,7);
     padding:5px;
     text-align: center;
 }
-/*
-.footer-info{
-    background-color: white;
-}
-*/
+
 /****** MEDIA ADJUSTMENTS ******/
 
 @media (max-width:1200px){
@@ -244,8 +246,11 @@ footer{
     .header-title{
     font-size:35px;
     }
-    .font-sizing{
+    .home-font-sizing{
         font-size: 20px;
+    }
+    .fixture-font-sizing{
+        font-size:10px
     }
 }
 
