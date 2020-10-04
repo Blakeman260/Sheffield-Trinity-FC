@@ -113,7 +113,7 @@ Deployment
 
 The project itself is hosted on Git Hub, So all of the work was carried out on Git pod, it then gets added and commited to the git pod repository, 
 which once its been commited, it then gets pushed to git hub itself, then once on git hub, it is then published onto its own Master branch, 
-to view at: https://blakeman260.github.io/
+to view at: https://blakeman260.github.io/Sheffield-Trinity-FC/
 
 
 Credits
