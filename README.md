@@ -94,6 +94,8 @@ For example, on the computer, before I let her navigate through, I showed her Th
  I ran my CSS through a validator online, which the only error that I came across, was that I'd put text-align: central; on my contact form, instead of center.
  A screen shot of this can be found in the readme-files folder.
 
+I ran my Javascript through https://jshint.com/ to make sure there wasn't any major faults, which there wasn't
+
  To make sure the site works fine on mobile and tablet devices, I have tested my website out, on various screen sizes including: -Standard computer screen - 1880 x 581 px 
  -iPad 768 x 1024 px -iPhone 6/7/8 - 375 x 667 px
 
